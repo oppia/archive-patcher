@@ -1,0 +1,7 @@
+java_binary(
+  name = "archive-patcher",
+  main_class = "com.google.archivepatcher.tools.FileByFileTool",
+  runtime_deps = [
+    "//tools",
+  ],
+)

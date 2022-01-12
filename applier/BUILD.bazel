@@ -1,0 +1,8 @@
+java_library(
+    name = "applier",
+    srcs = glob(["src/main/java/**/*.java"]),
+    deps = [
+        "//shared",
+    ],
+    visibility = ["//visibility:public"],
+)
